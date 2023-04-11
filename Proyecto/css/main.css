@@ -1,3 +1,6 @@
+/*Importación de fuentes de Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -84,13 +87,13 @@ main h1{
     margin-top: 0;
     text-align: center;
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     width: 51%;
     margin: 0 auto;
     line-height: 40px;
     padding-top: 100px;
-    font-weight: 500;
-    word-spacing: 20px;
+    font-weight: 700;
+    word-spacing: 5px;
     letter-spacing: 10px;
 }
 
@@ -100,9 +103,9 @@ main a{
     width: 130px;
     height: 45px;
     margin: 0 auto;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 900;
     text-align: center;
     margin-top: 140px;
     padding-top: 20px;
