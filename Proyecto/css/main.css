@@ -1,6 +1,11 @@
 /*Importación de fuentes de Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -116,3 +121,70 @@ nav{
     padding-top: 15px;
     box-sizing: border-box;
 }
+
+/* Clase 15: Estilos en el main de blogs.html*/
+
+.blogs--main{
+    width: 100%;
+    height: auto;
+}
+
+.main__entrada--principal{
+    width: 100%;
+    height: auto;
+    display: grid;
+    padding: 0px 100px 0px 145px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 60px 60px 200px 120px ;
+    grid-template-areas: 
+    "news ."
+    "image title"
+    "image text"
+    "image btn "
+    ;
+    background-color: #E6E9ED;
+}
+
+.item1{
+    grid-area: news;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    align-self: center;
+}
+
+.item2{
+    grid-area: image;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.item3{
+    grid-area: title;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+.item4{
+    grid-area: text;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.item5{
+    grid-area: btn;
+    width: 100px;
+    height: 40px;
+    align-self: self-start;
+    background-color: #48CFAD;
+    border: 2px solid #48CFAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+
+}
+
