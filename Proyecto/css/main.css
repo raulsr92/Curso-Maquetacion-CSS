@@ -164,27 +164,28 @@ nav{
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     font-size: 22px;
-
+    align-self: center;
 }
 .item4{
     grid-area: text;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     font-size: 15px;
-
+    align-self: center;
 }
-.item5{
+.item5, .btn{
     grid-area: btn;
     width: 100px;
     height: 40px;
     align-self: self-start;
     background-color: #48CFAD;
-    border: 2px solid #48CFAD;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 700;
     color: white;
-
 }
 
+.btn:hover{
+    background-color: #16A085;
+}
