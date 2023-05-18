@@ -275,3 +275,8 @@ footer{
     font-family: 'Roboto Mono', monospace;
 }
 
+/* Clase 20: Crear la pantalla de blog */
+
+.blog--main__img img{
+    width: 100%;
+}
