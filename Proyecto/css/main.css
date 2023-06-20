@@ -277,6 +277,12 @@ footer{
 
 /* Clase 20: Crear la pantalla de blog */
 
+.blog--main{
+    width: 100%;
+    height: auto;
+}
+
 .blog--main__img img{
     width: 100%;
 }
+
