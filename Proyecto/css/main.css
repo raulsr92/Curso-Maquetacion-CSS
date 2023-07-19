@@ -197,7 +197,7 @@ nav{
     height: auto;
 }
 
-.main__entrada--secundaria .main--title{
+.main__entrada--secundaria .main--title, .main--title{
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -275,14 +275,31 @@ footer{
     font-family: 'Roboto Mono', monospace;
 }
 
-/* Clase 20: Crear la pantalla de blog */
+/* Clase 21: Crear la pantalla de blog */
 
 .blog--main{
     width: 100%;
     height: auto;
 }
 
+.blog--main__img{
+    padding: 0px 45px 0px 45px;
+}
+
 .blog--main__img img{
     width: 100%;
 }
 
+.blog--main__entry{
+    padding: 20px 135px 0px 135px;
+}
+
+.blog--main .blog--main__entry .main--title{
+    text-align: left;
+    width: 100%;
+}
+
+.blog--main__entry article{
+    width: 100%;
+    height: auto;
+}
