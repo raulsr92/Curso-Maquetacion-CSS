@@ -305,7 +305,9 @@ footer{
 }
 
 .blog--main__entry article .item3{
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 32px;
 }
 
 .blog--main__entry article p{
