@@ -303,3 +303,12 @@ footer{
     width: 100%;
     height: auto;
 }
+
+.blog--main__entry article .item3{
+    padding-bottom: 20px;
+}
+
+.blog--main__entry article p{
+    padding-bottom: 20px;
+
+}
