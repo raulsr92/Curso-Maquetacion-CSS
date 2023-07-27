@@ -314,3 +314,19 @@ footer{
     padding-bottom: 20px;
 
 }
+
+/*Clase 22*/
+
+.blog--main__contact{
+    width: 100%;
+    height: auto;
+    background-color: #E6E9ED;
+    padding: 50px 90px 140px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog--main__contact img{
+    width: 80px;
+}
+
