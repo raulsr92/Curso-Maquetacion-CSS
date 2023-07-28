@@ -321,12 +321,45 @@ footer{
     width: 100%;
     height: auto;
     background-color: #E6E9ED;
-    padding: 50px 90px 140px 110px;
-    display: flex;
-    justify-content: space-between;
+    padding: 50px 125px 120px 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    " left . right"
+    ;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
 }
+
+.part--left{
+    grid-area: left;
+}
+
+.part--right{
+    grid-area: right;
+}
+
 
 .blog--main__contact img{
     width: 80px;
 }
 
+.part--left, .part--right{
+    display: flex;
+    column-gap: 20px;
+}
+
+.contact-left, .contact-right{
+    display: flex;
+    flex-direction: column;  
+    justify-content: end;
+    row-gap: 10px;
+}
+
+.contact-left a, .contact-right a{
+    text-decoration: underline;
+    text-underline-offset:6px;
+ 
+}
