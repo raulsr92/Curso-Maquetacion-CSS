@@ -320,6 +320,7 @@ footer{
 .blog--main__contact{
     width: 100%;
     height: auto;
+    max-height: 250px;
     background-color: #E6E9ED;
     padding: 50px 125px 120px 110px;
     display: grid;
@@ -340,7 +341,6 @@ footer{
 .part--right{
     grid-area: right;
 }
-
 
 .blog--main__contact img{
     width: 80px;
