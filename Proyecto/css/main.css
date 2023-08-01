@@ -384,6 +384,13 @@ footer{
     ;
 }
 
+
+.pefil--projects{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
 .perfil--main .item4{
     align-self: start;
     padding-top: 20px;
@@ -393,9 +400,17 @@ footer{
     align-self: end;
 };
 
-.pefil--projects{
-    padding-top: 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
