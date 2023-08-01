@@ -166,6 +166,7 @@ nav{
     font-size: 22px;
     align-self: center;
 }
+
 .item4{
     grid-area: text;
     font-family: 'Roboto Mono', monospace;
@@ -363,3 +364,46 @@ footer{
     text-underline-offset:6px;
  
 }
+
+/* Clase 23: Reto*/
+
+.perfil--main .main__entrada--principal{
+    grid-template-columns: 1fr 2fr;
+    background: linear-gradient(
+        107deg,
+        #E6E9ED 23% ,
+        #F5B7B1 100% 
+        );    
+    padding-right: 140px;
+    grid-template-rows: 60px 60px 190px 30px ;
+    grid-template-areas: 
+    "news ."
+    "image title"
+    "image text"
+    ". btn "
+    ;
+}
+
+.perfil--main .item4{
+    align-self: start;
+    padding-top: 20px;
+}
+
+.perfil--main .item3 {
+    align-self: end;
+};
+
+.pefil--projects{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
