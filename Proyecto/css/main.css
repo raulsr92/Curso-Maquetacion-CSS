@@ -252,6 +252,7 @@ nav{
     color: #616A6B ;
     height: 25%;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 footer{
@@ -384,13 +385,14 @@ footer{
     ;
 }
 
-
 .pefil--projects{
     padding-top: 30px;
     padding-bottom: 40px;
 }
 
-
+.blogs__article .paragraph--article{
+    overflow:visible;
+}
 .perfil--main .item4{
     align-self: start;
     padding-top: 20px;
@@ -399,6 +401,8 @@ footer{
 .perfil--main .item3 {
     align-self: end;
 };
+
+
 
 
 
