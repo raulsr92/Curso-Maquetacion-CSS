@@ -31,3 +31,13 @@
 
     
 }
+
+@media (max-width: 550px) {
+    /* Cambios en blogs.html*/
+
+    .main__entrada--principal{
+        grid-template-rows: auto  auto  auto auto auto;
+        padding: 25px 50px 25px 85px;
+
+    }
+}
