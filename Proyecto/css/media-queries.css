@@ -97,4 +97,22 @@
         grid-area: button;
         height: 30px;
     }
+
+    /* Arreglo del header*/
+
+    .nav-logo-container{
+        margin-left: 20px;
+        margin-top:22px;
+    }
+
+    .profile-link{
+        margin-right: 30px;
+
+    }
+    .nav-logo-container img{
+        width: 180px;
+    }
+    .profile-link a{
+        font-size: 14px;
+    }
 }
