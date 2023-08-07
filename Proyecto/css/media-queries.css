@@ -54,7 +54,9 @@
 
     .blogs--container{
         grid-template-columns: 1fr;
-        row-gap: 5px;
+        row-gap: 15px;
+        width: 80%;
+        padding-bottom: 10px;
     }
 
     .blogs__article{
@@ -67,12 +69,15 @@
             "photo button"
         ;
         height: 190px;
+        row-gap: 5px;
+        border-bottom: 1px solid #E6E9ED;
     }
 
     .blogs__article img{
         grid-area: photo;
         width: 90%;
         height: 90%;
+        align-self: center;
     }
     .blogs__article h3{
         grid-area: titlee;
@@ -80,16 +85,16 @@
         margin: 0;
         height: 100%;
         display: block;
-
-
     }
+
     .blogs__article p{
         grid-area: paragraph;
         font-size: 13px;
         height: 100%;
-
     }
+
     .blogs__article a{
         grid-area: button;
+        height: 30px;
     }
 }
