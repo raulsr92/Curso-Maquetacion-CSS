@@ -168,6 +168,18 @@
         font-size: 22px;
     }
 
+    /* Cambios en index.html*/
+
+    .main__principal h1{
+        font-size: 25px;
+        word-spacing: 3px;
+        letter-spacing: 5px;
+    }
+
+    .main__principal a{
+        margin-top: 70px;
+    }
+
     /* Arreglo del header*/
 
     .nav-logo-container{
