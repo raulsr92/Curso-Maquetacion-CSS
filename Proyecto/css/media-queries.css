@@ -132,6 +132,31 @@
         height: 30px;
     }
 
+    /* Cambios en input.html*/
+
+    .blog--main__contact{
+        max-height: 350px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        " left  "
+        "right"
+        ;
+        row-gap: 25px;
+        padding: 50px 50px 100px 50px;
+    }
+
+    .blog--main__contact img{
+        height: 90%;
+    }
+
+    .part--left, .part--right{
+        column-gap: 20px;
+    }
+
+    .blog--main__entry article .item3{
+        font-size: 22px;
+    }
+
     /* Arreglo del header*/
 
     .nav-logo-container{
