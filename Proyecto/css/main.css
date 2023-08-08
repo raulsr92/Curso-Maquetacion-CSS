@@ -269,8 +269,10 @@ footer{
 }
 
 .footer_black p{
+    width: 80%;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin: 0 auto;
     color:white;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -292,7 +294,9 @@ footer{
 }
 
 .blog--main__entry{
-    padding: 20px 135px 0px 135px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 .blog--main .blog--main__entry .main--title{
@@ -313,6 +317,7 @@ footer{
 
 .blog--main__entry article p{
     padding-bottom: 20px;
+    text-align: justify;
 
 }
 
@@ -337,14 +342,19 @@ footer{
 
 .part--left{
     grid-area: left;
+    align-items:flex-end;
+
 }
 
 .part--right{
     grid-area: right;
+    align-items:flex-end;
+
 }
 
 .blog--main__contact img{
     width: 80px;
+    height: 90%;
 }
 
 .part--left, .part--right{
