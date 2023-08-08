@@ -74,6 +74,35 @@
         margin-top: 90px;
     }
 
+    /* Cambios en perfil.html*/
+
+    #personal--info{
+        grid-template-rows: 30px 60px  190px 30px;
+        row-gap: 0px;
+        padding: 10px 76px 10px 76px;
+        column-gap: 20px;
+    }
+
+    #personal--photo{
+        height: 80%;
+        width: 100%;
+        align-self: center;
+    }   
+    #personal--text{
+        text-align: justify;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #project-1 , #project-2, #project-3, #project-4, #project-5{
+       
+        background-color: #E8F8F5;
+        border-radius: 3px;
+        padding-left: 5px;
+        padding-right: 2px;
+
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -179,6 +208,51 @@
     .main__principal a{
         margin-top: 70px;
     }
+
+    /* Cambios en perfil.html*/
+
+    #personal--info{
+        grid-template-columns: 1fr;
+        padding: 25px 40px 30px 40px;
+        grid-template-rows:auto 150px auto ;
+        grid-template-areas: 
+        "title"
+        "image"
+        "text"
+        "."
+        ;
+        row-gap: 20px;
+    }
+
+    #personal--photo{
+        height: 100%;
+        width: 50%;
+        justify-self: center;
+        border-radius: 15px;
+    }
+
+    #personal--tittle{
+        text-align: center;
+    }
+
+    #personal--text{
+        font-size: 13px;
+        padding-top: 0px;
+    }
+
+    #project-1 , #project-2, #project-3, #project-4, #project-5{
+
+        display: block;
+        height: auto;
+        border-bottom: 0;
+    }
+
+    #project-1 h3, #project-2 h3, #project-3 h3, #project-4 h3, #project-5 h3{
+        height: auto;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
 
     /* Arreglo del header*/
 

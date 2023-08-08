@@ -387,7 +387,7 @@ footer{
     padding-right: 140px;
     grid-template-rows: 60px 60px 190px 30px ;
     grid-template-areas: 
-    "news ."
+    ". ."
     "image title"
     "image text"
     ". btn "
