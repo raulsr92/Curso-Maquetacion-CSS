@@ -62,7 +62,18 @@
     .part--left, .part--right{
         column-gap: 10px;
     }
-        
+
+    /* Cambios en index.html*/
+
+    .main__principal h1{
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .main__principal a{
+        margin-top: 90px;
+    }
+
 }
 
 @media (max-width: 550px) {
