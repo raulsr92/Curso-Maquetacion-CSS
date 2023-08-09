@@ -36,7 +36,7 @@ header .header-icon-container{
     display: grid;
     align-items: center;
     justify-items: end;
-    background-color: #48CFAD;
+    background-color: #EC7063;
 }
 
 header .header-icon-container .icons{
@@ -104,11 +104,12 @@ nav{
     font-weight: 700;
     word-spacing: 5px;
     letter-spacing: 10px;
+    text-shadow: 4px 4px 10px #EC7063;
 }
 
 .main__principal a{
     display: block;
-    background-color: #48CFAD; /**/
+    background-color: #EC7063; /**/
     width: 135px; /**/
     height: 55px; /**/
     margin: 0 auto;
@@ -119,6 +120,8 @@ nav{
     margin-top: 140px;
     padding-top: 15px;
     box-sizing: border-box;
+    box-shadow: 2px 2px 30px #FEF9E7;
+
 }
 
 /* Clase 15: Estilos en el main de blogs.html*/
@@ -178,7 +181,7 @@ nav{
     width: 100px;
     height: 40px;
     align-self: self-start;
-    background-color: #48CFAD;
+    background-color: #EC7063;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,7 +265,7 @@ footer{
 }
 
 .footer_green{
-    background-color: #48CFAD;
+    background-color: #EC7063;
 }
 .footer_black{
     background-color: #22272D;
